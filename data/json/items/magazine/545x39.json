@@ -51,5 +51,23 @@
     "reload_time": 130,
     "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "545x39": 60 } } ]
-  }
+  },
+  {
+    "id": "super74mag",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "AK-74M 100-round magazine" },
+    "description": "A 100-round magazine compatible with the AK-74M rifle.",
+    "weight": "525 g",
+    "volume": "950 ml",
+    "price": 10000,
+    "price_postapoc": 750,
+    "material": [ "plastic" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "545x39" ],
+    "reload_time": 165,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "545x39": 100 } } ]
+  } 
 ]
