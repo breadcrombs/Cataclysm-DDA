@@ -1720,6 +1720,79 @@
     ]
   },
   {
+    "id": "cargo_shirt",
+    "repairs_like": "tshirt",
+    "type": "ARMOR",
+    "name": { "str": "Cargo shirt" },
+    "description": "Why.",
+    "weight": "400 g",
+    "volume": "250 ml",
+    "price": 200,
+    "price_postapoc": 1000,
+    "material": [ "canvas","superalloy","diamond","nomex" ],
+    "symbol": "[",
+    "looks_like": "polo_shirt",
+    "color": "light_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1650 ml",
+        "max_contains_weight": "10 kg",
+        "max_item_length": "30 cm",
+        "moves": 40
+      }
+            {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1650 ml",
+        "max_contains_weight": "10 kg",
+        "max_item_length": "30 cm",
+        "moves": 40
+      }
+        {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1650 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "30 cm",
+        "moves": 80
+      }
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1650 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "30 cm",
+        "moves": 80
+      }
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "100 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "5 cm",
+        "moves": 80
+      }
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "100 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "5 cm",
+        "moves": 80
+      }
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "100 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "5 cm",
+        "moves": 80
+      }
+    ],
+    "warmth": 8,
+    "material_thickness": 4,
+    "flags": [ "VARSIZE" ],
+    "armor": [
+     { "covers": [ "torso" ], "coverage": 100, "encumbrance": [ 3, 6 ] },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 95, "encumbrance": [ 6, 6 ] }
+    ]
+  },
+  {
     "id": "tshirt_tour",
     "repairs_like": "tshirt",
     "type": "ARMOR",
